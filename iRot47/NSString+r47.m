@@ -11,7 +11,7 @@
 -(NSString *) r47String
 {
 	const char *_string = [self cStringUsingEncoding:NSASCIIStringEncoding];
-	int stringLength = [self length];
+	int stringLength = strlen(_string);
 	char newString[stringLength+1];
 	int x;
 	for( x=0; x<stringLength; x++ )
