@@ -24,7 +24,7 @@
 	}
 	newString[x] = '\0';
 	NSString *rotString = [NSString stringWithCString:newString encoding:NSASCIIStringEncoding];
-    DLog(@"%@ = %@",self,rotString);
+    	DLog(@"%@ = %@",self,rotString);
 	return rotString ;
 }
 
