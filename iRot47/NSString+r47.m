@@ -11,7 +11,7 @@
 -(NSString *) r47String
 {
 	const char *_string = [self cStringUsingEncoding:NSASCIIStringEncoding];
-	int stringLength = strlen(_string);
+	NSUInteger stringLength = strlen(_string);
 	char newString[stringLength+1];
 	int x;
 	for( x=0; x<stringLength; x++ )
@@ -24,7 +24,7 @@
 	}
 	newString[x] = '\0';
 	NSString *rotString = [NSString stringWithCString:newString encoding:NSASCIIStringEncoding];
-    	DLog(@"%@ = %@",self,rotString);
+    	NSLog(@"%@ = %@",self,rotString);
 	return rotString ;
 }
 
