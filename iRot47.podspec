@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   spec.summary      = 'An Objective-C rot47 implementation'
   spec.homepage     = 'https://github.com/Chucky2be/iRot47'
   spec.author       = 'Frank Poncelet'
-  spec.source       = { :git => 'https://github.com/Chucky2be/iRot47.git', :tag => 'v1.0' }
+  spec.source       = { :git => 'https://github.com/Chucky2be/iRot47.git', :tag => spec.version.to_s }
   spec.source_files = 'iRot47/*'
   spec.requires_arc = true
 end
