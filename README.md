@@ -51,3 +51,9 @@ $ open MyProject.xcworkspace
 ### Manual Install
 
 All you need to do is drop `iRot47` files into your project, and add `#import "NSString+r47.h"` to the top of classes that will use it.
+
+Final Notes
+------------
+
+If you found this package useful, please **Star** it on github. Feel free to fork or provide pull requests. Any bug reports will be warmly received.
+
